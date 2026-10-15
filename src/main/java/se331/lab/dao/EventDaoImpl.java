@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-@Profile("db")
+@Profile("memory")
 public class EventDaoImpl implements EventDao {
     List<Event> eventList;
 
